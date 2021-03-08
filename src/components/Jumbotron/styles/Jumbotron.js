@@ -49,10 +49,6 @@ export const Image = styled.img`
     height: auto;
 `
 
-export const Container = styled.div`
-
-`
-
 export const Item = styled.div`
     display: flex;
     border-bottom: 8px solid #222;
@@ -60,3 +56,12 @@ export const Item = styled.div`
     color: white;
     overflow: hidden;
 `
+
+export const Container = styled.div`
+    @media (max-width: 1000px) {
+        ${ Item }:last-of-type h2 {
+            margin-bottom: 50px;
+        }
+    }
+`
+

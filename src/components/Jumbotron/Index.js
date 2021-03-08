@@ -4,9 +4,8 @@ import {Container, Pane, SubTitle, Title, Inner, Image, Item } from './styles/Ju
 
 const Jumbotron = ({children, direction = 'row', ...restProps}) => {
     return (
-        <Item direction={direction}>
-            <Inner>
-                {/* <p>I am the Jumbo</p> */}
+        <Item {...restProps}>
+            <Inner direction={direction}>
                 {children}
             </Inner>
         </Item>
