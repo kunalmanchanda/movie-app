@@ -1,6 +1,6 @@
 import React from 'react'
 import jumboData from '../fixtures/jumbo.json'
-import Jumbotron from '../components/Jumbotron/Index'
+import Jumbotron from '../components/Jumbotron'
 
 const JumbotronContainer = () => {
   return (
@@ -21,7 +21,6 @@ const JumbotronContainer = () => {
         }
       </Jumbotron.Container> 
     </>
-     
   )
 }
 
